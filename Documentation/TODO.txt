@@ -1,0 +1,2 @@
+Ce projet à pour but de créer une petite application WPF, qui comprend 2 principales fonctionnalités : On a un fenetre principale qui a 2 onglets, un onglet calculatrice et un onglet morpion (tic tac toe). 
+Le but principal est de s'améliorer sur les concepts MVVM / Navigation entre userControls et également algorithmiquement avec la logique du morpion et de la calculatrice
