@@ -16,7 +16,11 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Button Content="Calculatrice"></Button>
-        <Button Grid.Column="1" Content="Morpion"></Button>
+        <Button Content="Calculatrice" Command="{Binding NavigationCalculatriceCommand}"></Button>
+        <Button Grid.Column="1" Content="Morpion" Command="{Binding NavigationMorpionCommand}"></Button>
+
+        <ContentControl Grid.Row="1" Grid.ColumnSpan="2" Content="{Binding Navigation.CurrentView}">
+            
+        </ContentControl>
     </Grid>
 </Window>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalculatriceWPF.ViewModel
 {
-    public class MorpionViewModel
+    public class MorpionViewModel : Utilities.ViewModel
     {
 
     }

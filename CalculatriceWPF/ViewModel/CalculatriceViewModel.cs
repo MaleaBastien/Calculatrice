@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalculatriceWPF.ViewModel
 {
-    public class CalculatriceViewModel
+    public class CalculatriceViewModel : Utilities.ViewModel
     {
     }
 }

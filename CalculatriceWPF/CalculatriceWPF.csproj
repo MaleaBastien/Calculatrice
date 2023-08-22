@@ -72,7 +72,10 @@
     </ApplicationDefinition>
     <Compile Include="Model\Calculatrice.cs" />
     <Compile Include="Model\Morpion.cs" />
-    <Compile Include="Utilities\ViewModelBase.cs" />
+    <Compile Include="Services\INavigationService.cs" />
+    <Compile Include="Services\NavigationService.cs" />
+    <Compile Include="Utilities\ObservableObject.cs" />
+    <Compile Include="Utilities\ViewModel.cs" />
     <Compile Include="Utilities\RelayCommand.cs" />
     <Compile Include="ViewModel\CalculatriceViewModel.cs" />
     <Compile Include="ViewModel\MorpionViewModel.cs" />
