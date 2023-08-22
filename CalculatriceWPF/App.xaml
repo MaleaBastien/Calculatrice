@@ -1,9 +1,18 @@
 ﻿<Application x:Class="CalculatriceWPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:CalculatriceWPF"
-             StartupUri="View/MainWindow.xaml">
+             xmlns:viewModel="clr-namespace:CalculatriceWPF.ViewModel"
+             xmlns:view="clr-namespace:CalculatriceWPF.View"
+             xmlns:local="clr-namespace:CalculatriceWPF">
     <Application.Resources>
-         
+        
+        <DataTemplate DataType="{x:Type TypeName=viewModel:MorpionViewModel}">
+            <view:MorpionView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type TypeName=viewModel:CalculatriceViewModel}">
+            <view:CalculatriceView/>
+        </DataTemplate>
+
     </Application.Resources>
 </Application>
