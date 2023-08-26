@@ -70,10 +70,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Enumeration\MorpionDifficultiesEnum.cs" />
     <Compile Include="Model\Calculatrice.cs" />
     <Compile Include="Model\Morpion.cs" />
     <Compile Include="Services\INavigationService.cs" />
     <Compile Include="Services\NavigationService.cs" />
+    <Compile Include="Utilities\EnumHelper.cs" />
     <Compile Include="Utilities\ObservableObject.cs" />
     <Compile Include="Utilities\ViewModel.cs" />
     <Compile Include="Utilities\RelayCommand.cs" />

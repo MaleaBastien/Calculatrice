@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CalculatriceWPF.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,17 @@ namespace CalculatriceWPF.View
     /// </summary>
     public partial class MorpionView : UserControl
     {
+        #region Propriete
+
+        public MorpionViewModel ViewModel { get; set; }
+
+        #endregion
+
         public MorpionView()
         {
             InitializeComponent();
+            ViewModel = new MorpionViewModel();
+            DataContext = ViewModel;
         }
     }
 }

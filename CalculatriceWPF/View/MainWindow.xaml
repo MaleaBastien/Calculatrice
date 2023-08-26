@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalculatriceWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="LightBlue">
+        Title="MainWindow" Height="600" Width="1050" Background="LightBlue">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
